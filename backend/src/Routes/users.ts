@@ -1,4 +1,3 @@
-// backend/src/Routes/users.ts
 import express, { Request, Response } from 'express';
 
 const router = express.Router();
@@ -7,14 +6,14 @@ const router = express.Router();
  * @swagger
  * /users:
  *   get:
- *     summary: Obtener todos los usuarios
- *     description: Endpoint para obtener todos los usuarios registrados en el gimnasio.
+ *     summary: Get all users
+ *     description: Endpoint to get all registered users on the application
  *     responses:
  *       '200':
- *         description: Respuesta exitosa
+ *         description: Successful response
  */
 router.get('/users', (req: Request, res: Response) => {
-    // Implementación para obtener todos los usuarios
+    // TODO: Implement logic to get all users
 });
 
 export default router;
